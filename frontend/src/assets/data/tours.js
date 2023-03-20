@@ -99,7 +99,7 @@ const tours = [
     ],
     avgRating: 4.5,
     photo: tourImg05,
-    featured: false,
+    featured: true,
   },
   {
     id: "06",
@@ -117,7 +117,7 @@ const tours = [
     ],
     avgRating: 4.5,
     photo: tourImg06,
-    featured: false,
+    featured: true,
   },
   {
     id: "07",
@@ -135,7 +135,7 @@ const tours = [
     ],
     avgRating: 4.5,
     photo: tourImg07,
-    featured: false,
+    featured: true,
   },
   {
     id: "08",
@@ -153,7 +153,7 @@ const tours = [
     ],
     avgRating: 4.5,
     photo: tourImg03,
-    featured: false,
+    featured: true,
   },
 ];
 
