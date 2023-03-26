@@ -23,7 +23,7 @@ const SearchBar = () => {
     return <Col lg = '12'>
         <div className="search__bar">
             <Form className="d-flex align-items-center gap-4">
-                <FormGroup className="d-flex gap-3 form__group form__group-fast">
+                <FormGroup className="d-flex gap-3 form__group form__group-fast mt-3">
                     <span>
                         <i className="ri-map-pin-line"></i>
                     </span>
@@ -35,30 +35,30 @@ const SearchBar = () => {
                         ref={locationRef}/>
                     </div>
                 </FormGroup>
-                <FormGroup className="d-flex gap-3 form__group form__group-fast">
+                <FormGroup className="d-flex gap-3 form__group form__group-fast mt-3">
                     <span>
-                        <i className="ri-map-pin-time-line"></i>
+                        <i class="ri-calendar-check-fill"></i>
                     </span>
 
                     <div>
-                        <h6>Distance</h6>
-                        <input type="number" 
+                        <h6>Departure Date</h6>
+                        <input type="date" 
                         placeholder="Distance"
                         ref={distanceRef}/>
                     </div>
                 </FormGroup>
-                <FormGroup className="d-flex gap-3 form__group form__group-last">
+                <FormGroup className="d-flex gap-3 form__group form__group-last mt-3">
                     <span>
-                        <i className="ri-group-line"></i>
+                        <i class="ri-money-dollar-box-line"></i>
                     </span>
 
                     <div>
-                        <h6>People</h6>
-                        <input type="number" 
-                        placeholder="0"
-                        min={0}
-                        ref={peopleRef}
-                        />
+                        <h6>Price</h6>
+                        <select>
+                            <option value="0">Select price</option>
+                            <option>Under $50</option>
+
+                        </select>
                     </div>
                 </FormGroup>
 

@@ -12,10 +12,12 @@
 }
 
 .form__group input {
+    width: 100%;
     border: none;
     font-size: 0.9rem;
     color: var(--heading-color);
     font-weight: 500;
+    margin-right: 20px;
 }
 
 .form__group input:focus {
@@ -27,6 +29,11 @@
 }
 
 .form__group-fast {
+    border-right: 2px solid #ddd;
+    padding-right: 10px;
+}
+
+.form__group-last {
     border-right: 2px solid #ddd;
 }
 
